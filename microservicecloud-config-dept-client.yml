@@ -23,10 +23,10 @@ spring:
       max-wait-millis: 200                                  # 等待连接获取的最大超时时间
       
 mybatis: 
-  config-location: classpath:mybatis/mybatis.cfg.xml
-  type-aliases-package: com.atguigu.springcloud.entities
-  mapper-locations: 
-  - classpath: mybatis/mapper/**/*.xml
+  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
+  type-aliases-package: com.atguigu.springcloud.entities    # 所有Entity别名类所在包
+  mapper-locations:
+  - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
 
 eureka: 
   client: 
@@ -62,10 +62,10 @@ spring:
       max-wait-millis: 200                                  # 等待连接获取的最大超时时间
 
 mybatis: 
-  config-location: classpath:mybatis/mybatis.cfg.xml
-  type-aliases-package: com.atguigu.springcloud.entities
-  mapper-locations: 
-  - classpath: mybatis/mapper/**/*.xml
+  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
+  type-aliases-package: com.atguigu.springcloud.entities    # 所有Entity别名类所在包
+  mapper-locations:
+  - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
 
 
 eureka: 
