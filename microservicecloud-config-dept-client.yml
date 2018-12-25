@@ -36,10 +36,10 @@ eureka:
     prefer-ip-address: true
 
 info: 
-  app.name: atguigu-microservicecloud-springcloudconfig01
-  company.name: www.atguigu.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
+  app.name: atguigu-microservicecloud
+  company.name: www.atguigu.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
 ---
 server: 
   port: 8001
@@ -77,7 +77,7 @@ eureka:
 
 
 info: 
-  app.name: atguigu-microservicecloud-springcloudconfig02
-  company.name: www.atguigu.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
+  app.name: atguigu-microservicecloud
+  company.name: www.atguigu.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
